@@ -18,7 +18,8 @@ const PRODUCTS = [
     product_image:
       "https://down-tx-vn.img.susercontent.com/sg-11134201-7rcds-lrsx1qfo3ez6d2.webp",
     product_link: "https://s.shopee.vn/5pvn6ptTwH ",
-    product_title: " 17,3k lượt bán",
+    product_title:
+      "Dép đi trong nhà quai ngang siêu nhẹ chống trượt Xixitiao 4 màu Slipper DéP Nữ",
     product_sold: "9,8k lượt bán",
   },
   {

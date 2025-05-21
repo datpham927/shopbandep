@@ -1,23 +1,31 @@
+import { Rating } from "@mui/material";
 import * as React from "react";
-const ProductItem = ({ product, onClick }) => {
+
+const ProductItem = ({ product }) => {
+  // Fallback values for missing data
   return (
     <a
-      href={product?.product_link}
-      onClick={onClick}
+      href={product.product_link}
       target="_blank"
-      className="flex flex-col w-full h-fit  px-4 py-6 hover:shadow-cart hover:rounded-md cursor-pointer"
       rel="noreferrer"
+      className="flex flex-col w-full h-fit p-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-pink-300"
+      aria-label={`View details for ${product.product_title}`}
     >
-      <div className="flex my-2  rounded-2xl overflow-hidden">
+      <div className="relative w-full aspect-square rounded-xl overflow-hidden mb-3">
         <img
-          className="w-full h-full object-cover "
-          src={product?.product_image}
-          alt=""
+          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          src={product.product_image}
+          alt={product.product_title}
+          loading="lazy"
         />
       </div>
-      <span className="truncate-trailing line-clamp-2 text-sm text-pink-700">
-        {product?.product_title}
-      </span>
+      <h3 className="text-sm font-medium text-pink-700 line-clamp-2 min-h-[2.5rem]">
+        {product.product_title}
+      </h3>
+      <div className="flex items-center justify-between mt-2">
+        <Rating value={5} readOnly precision={0.5} size="small" />
+        <span className="text-xs text-gray-600">{product.product_sold}</span>
+      </div>
     </a>
   );
 };
