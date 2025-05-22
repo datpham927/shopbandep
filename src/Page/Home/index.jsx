@@ -1,7 +1,7 @@
 // import React, { useState } from 'react'
 import Header from "./Header";
-// import SideBar from './SideBar'
 import Body from "./Body";
+import ChatBoxAI from "../../components/chatbotAI";
 
 const Home = () => {
   // const [categoryCode, setCategoryCode] = useState('')
@@ -12,6 +12,7 @@ const Home = () => {
         {/* <SideBar setCategoryCode={setCategoryCode} categoryCode={categoryCode} /> */}
         <Body />
       </div>
+      <ChatBoxAI />
     </div>
   );
 };
