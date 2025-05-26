@@ -512,13 +512,7 @@ const PRODUCTS = [
         "https://down-bs-vn.img.susercontent.com/sg-11134201-23020-mhhzsb15qvnv06.webp",
       product_sold: "6,8k lượt bán",
       product_link: "https://s.shopee.vn/3qAqa6sBZm",
-    },
-    {
-      product_title: "",
-      product_image: "",
-      product_sold: "",
-      product_link: "",
-    },
+    }
   ],
 ];
 
