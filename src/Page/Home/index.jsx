@@ -8,9 +8,9 @@ import { PRODUCTS } from "../../config/product";
 const Home = () => {
   const [categoryCode, setCategoryCode] = useState(0);
   return (
-    <div className="flex flex-col sm:gap-4 gap-6 w-full h-full">
+    <div className="flex flex-col gap-4 w-full h-full">
       <Header />
-      <div className="flex w-full sm:px-0 sm:gap-2 gap-6 px-4  h-[calc(100%-70px)]">
+      <div className="flex w-full sm:px-0 gap-4 px-4  h-[calc(100%-70px)]">
         <Sidebar
           setCategoryCode={setCategoryCode}
           categoryCode={categoryCode}
