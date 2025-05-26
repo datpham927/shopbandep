@@ -15,7 +15,7 @@ const ChatBotAIModal = ({ isOpenBox, setIsOpenBox }) => {
       id: crypto.randomUUID(),
       role: "bot",
       content:
-        "👋 Chào bạn nha! Mình là trợ lý vui tính của cửa hàng thực phẩm 🛒 Bạn cần gì giúp đỡ, cứ thoải mái hỏi mình nhé! 😆",
+        "👋 Chào bạn nha! Em là Nhi trợ lý siêu dễ thương của cửa hàng bán giày dép🛒 Anh/chị cần gì giúp đỡ, cứ thoải mái hỏi em nhé!😆",
     },
   ]);
   const scrollRef = useRef(null);
