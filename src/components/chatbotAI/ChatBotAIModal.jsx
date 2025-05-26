@@ -81,7 +81,7 @@ const ChatBotAIModal = ({ isOpenBox, setIsOpenBox }) => {
     ${isOpenBox ? "animate-active-openChat" : "animate-active-openChatOff"}
 
     fixed inset-0 sm:rounded-none
-    md:inset-auto md:fixed md:bottom-10 md:right-10 md:w-[400px] md:h-[500px] md:rounded-md
+    md:inset-auto md:fixed md:bottom-4 md:right-10 md:w-[400px] md:h-[500px] md:rounded-md
   `}
     >
       <div className="flex h-full  w-[400px] flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white dark:border-gray-800">

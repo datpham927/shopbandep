@@ -2,7 +2,7 @@ export const categories = [
   {
     _id: "1",
     category_code: "0",
-    category_name: "Giày Dép Nữ",
+    category_name: "Giày Dép",
     category_thumbnail:
       "https://down-tx-vn.img.susercontent.com/vn-11134207-7ra0g-m9pgizrn0sgqa7.webp",
   },
